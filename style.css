@@ -5,8 +5,8 @@
     --black: #130f40;
     --light-color: #666;
     --box-shadow: 0 .5rem 1rem rgb(83, 78, 78);
-    --border: 2rem solid rgba(0,0,0.1);
-    --outline: .1rem solid rgba(0,0,0.1);
+    --border: 2rem solid rgba(0,0,0,1);
+    --outline: .1rem solid rgba(0,0,0,1);
 }
 
 *{
@@ -32,6 +32,7 @@ body{
     background: #eee;
 
 }
+
 header{
     position: fixed;
     top: 0;
@@ -109,7 +110,70 @@ header .icons div:hover{
 #login-btn:hover ~ .login-form{
     display:block;
 }
-.mid{
-    height: 100px;
-    width: 100px;
+section{
+padding: 2rem 9%;
+
+
+}
+.home{
+    border: 2px solid;
+    justify-content: center;
+    display: flex;
+     height: 80vh;
+     background: url(../NaturalFarming_Grocery/Images/banner-img.jpg) no-repeat;
+     background-position: center;
+     background-size: cover;
+     padding-top: 17rem;
+     padding-bottom: 10rem;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+     html{
+        font-size: 55%;
+     }
+     .header{
+        padding: 2rem;
+     }
+     section{
+        padding: 2rem;
+     }
+}
+@media( max-width: 768px){
+     #menu-btn{
+        display: inline-block;
+     }
+    .header .navbar
+    {
+    position: absolute;
+    top: 110%;
+    right: 2rem;
+    width: 30rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    background: #fff;
+    display: none;
+     }
+     .header .navbar a{
+        font-size:2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+     }
+
+     #menu-btn:hover + .navbar{
+        display: inline-block;
+     }
+}
+
+
+@media (max-width: 450px) {
+     html{
+        font-size: 50%;
+     }
 }
