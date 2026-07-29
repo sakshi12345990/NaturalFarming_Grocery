@@ -197,7 +197,11 @@ padding: 2rem 9%;
 }
 
 
+.products product-slider{
+    border: 2px solid;
+    padding: 1rem;
 
+}
 
 
 
