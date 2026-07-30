@@ -394,18 +394,88 @@ padding: 1rem;
 
 }
 
+.footer{
+    background: #fff;
 
+}
+.footer .box-container{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1.5rem;
+   
+}
+.footer .box-container .box{
+    background-color: white;
+}
 
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 1rem 0;
 
+}
+.footer .box-container .box h3 i{
+    color: var(--green);
+}
 
+.footer .box-container .box .links{
+    display: block;
+  font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
 
+.footer .box-container .box .links i
+{ 
+    color: var(--green);
+    padding-right:.5rem ;
+}
 
+.footer .box-container .box .links:hover i{
+    
+padding-right: 2rem;
+transition: .2s;
 
+}
+.footer .box-container .box p{
+  line-height: 1.8;
+  font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+.footer .box-container .box .share a{
+    border: 0px solid;
+    height: 4rem;
+    width: 4rem;
+  line-height: 4rem;
+  border-radius: .5rem;
+  font-size: 2rem;
+  color: var(--black);
+  margin-left:.2rem ;
+ background-color: #eee;
+ text-align: center;
+}
 
+.footer .box-container .box .share a:hover{
+    background: var(--green);
+    color: white;
+}
+.footer .box-container .box .email{
+    width: 100%;
+    margin: .7rem 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+.footer .box-container .box .payment-img{
+    margin-top: 2rem;
+    height: 3rem;
 
-
-
-
+}
 
 
 
