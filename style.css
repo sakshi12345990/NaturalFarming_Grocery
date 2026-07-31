@@ -142,9 +142,9 @@ padding: 2rem 9%;
      height: 80vh;
     background: url("Images/banner-img.jpg") no-repeat;
      background-position: center;
-     background-size: 100%;
+     background-size: cover;
      padding-top: 17rem;
-     padding-left: 25rem;
+
      padding-bottom: 10rem;
      
 }
